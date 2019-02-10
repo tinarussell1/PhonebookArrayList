@@ -2,8 +2,6 @@ package phonebook2;
 
 import java.util.Comparator;
 
-import phonebook2.Address2;
-
 public class Person2 implements Comparable<Person2>  {
 //public class Person implements Comparable<Person>  {
 	private String lastName;
@@ -55,7 +53,7 @@ public class Person2 implements Comparable<Person2>  {
 					+ "(" + telephone.substring(0,3) 
 					+ ")" + telephone.substring(3,6) 
 					+ "-" + telephone.substring(6) 
-					+  ", address=" + address;
+					+  ", " + address;
 		}
 
 		@Override
